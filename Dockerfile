@@ -6,7 +6,7 @@ FROM ruby:2.7.2-alpine
 # app
 ARG WORKDIR
 
-ARG RUNTIME_PACKAGES="nodejs tzdata postgresql-dev postgresql git" \
+ARG RUNTIME_PACKAGES="nodejs tzdata postgresql-dev postgresql git"
 ARG DEV_PACKAGES="build-base curl-dev"
 
 # 環境変数を定義(Dockerfile, コンテナ参照可)
